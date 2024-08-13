@@ -1,0 +1,54 @@
+:root{
+    --red: #E6533C;
+}
+*{
+    margin: 0px;
+    
+    font-family: Inter;
+}
+.nav-background {
+    height: 70vh;
+    background-image: linear-gradient(black,rgb(23, 23, 23), black);
+}
+#nav-main
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80vw;
+    margin: 0 auto;
+}
+#nav-right
+{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.353);
+    border-radius: 25px;
+}
+#nav-left
+{
+    display: flex;
+}
+#logo
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--red);
+    font-style: italic;
+}
+.nav-btn
+{
+    border: none;
+    background: transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 1px;
+    color: white;
+}
+#home-btn
+{
+    background-color: var(--red);
+    color: white;
+}
