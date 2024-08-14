@@ -7,7 +7,6 @@
     font-family: Inter;
 }
 .nav-background {
-    height: 70vh;
     background-image: linear-gradient(black,rgb(23, 23, 23), black);
 }
 #nav-main
@@ -24,6 +23,11 @@
     display: flex;
     border: 1px solid rgba(255, 255, 255, 0.353);
     border-radius: 25px;
+    min-width: 30vw;
+    justify-content: space-between;
+}
+#nav-main img{
+    display: none;
 }
 #nav-left
 {
@@ -42,13 +46,128 @@
     background: transparent;
     border-radius: 25px;
     font-size: 18px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 1px;
     color: white;
+    width: 25%;
 }
 #home-btn
 {
     background-color: var(--red);
     color: white;
 }
+
+
+.banner-left {
+    width: 50%;
+}
+
+#banner-title {
+    font-size: 78px;
+    font-weight: bolder;
+}
+
+.banner-left p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+#banner-design
+{
+    font-family: miama;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    font-size: 9rem;
+    z-index: 1;
+}
+#btn-join, #btn-download {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#btn-join {
+    background-color: #E6533C;
+    color: white;
+    border: none;
+}
+
+#btn-download {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.banner
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-right
+{
+    position: relative;
+}
+
+.btn-overlay
+{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color:  rgba(59, 59, 59, 0.312);
+    border: none;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 12px;
+}
+.btn-overlay-300
+{
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    background-color:  rgba(59, 59, 59, 0.312);
+    border: none;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+#overlay500
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+#overlay-txt-500
+{
+    font-size: 13px;
+    color: white;
+}
+
+#overlaydot {
+    width: 20px; 
+    height: 20px; 
+    background-color:var(--red);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#overlay350
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+}
+#overlay-txt-350
+{
+    font-size: 13px;
+    color: white;
+}
+
+
