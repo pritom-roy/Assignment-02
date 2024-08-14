@@ -596,4 +596,103 @@ hr {
     border-radius: 1rem;
 }
 
-/* my part carousel */
+/* my part*/
+.uq {
+    background-color: black;
+}
+
+.back {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pricing .box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.heading {
+    font-size: 44px;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.pricing .box-container .box {
+    padding: 2rem;
+    text-align: center;
+    border: 0.1rem solid rgba(255, 255, 255, .2);
+    box-shadow: var(--spwhite);
+    border-radius: .5rem;
+}
+
+.pricing .box-container .box h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--red);
+    padding-top: 1rem;
+}
+
+.pricing .box-container .box .price {
+    font-size: 6rem;
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+.pricing .box-container .box .price span {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.pricing .box-container .box .month {
+    font-size: 2rem;
+    color: #666;
+}
+
+.pricing .box-container .box .list {
+    padding: 1rem 0;
+}
+
+.pricing .box-container .box .list p {
+    font-size: 1.7rem;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.pricing .box-container .box .list p i {
+    color: var(--red);
+    padding-right: .5rem;
+}
+
+.pricing .box-container .box .list p i.fa-times {
+    color: var(--white);
+}
+
+.btn {
+    margin-top: 2rem;
+    border: none;
+    background: transparent;
+    background-color: var(--red);
+    border-radius: 42px;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.fas {
+    font-size: 1rem;
+}
+
+.list {
+    margin-bottom: 2rem;
+}
+
+.price {
+    color: white;
+}
+
+.pricing {
+    padding-bottom: 2rem;
+}
