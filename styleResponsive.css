@@ -1,37 +1,42 @@
 @media screen and (max-width:576px) {
-    .nav-btn
-    {
+    .nav-btn {
         display: none;
     }
-    #nav-right
-    {
+
+    #nav-right {
         border: none;
-        
+
     }
-    .banner
-    {
+
+    .banner {
         flex-direction: column;
         align-items: center;
     }
-    #banner-title
-    {
+
+    #banner-title {
         font-size: 60px;
     }
-    #banner-design
-    {
+
+    #banner-design {
         font-size: 8rem;
     }
-    .banner
-    {
+
+    .banner {
         width: 90vw;
     }
-    .banner-left
-    {
+
+    .banner-left {
         width: 90%;
         margin: 0 auto;
     }
-    #nav-main img{
+
+    #nav-main img {
         display: block;
+    }
+
+    /* footer  */
+    .footer-content {
+        flex-direction: column;
     }
 
 }
