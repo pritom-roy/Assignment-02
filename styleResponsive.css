@@ -74,4 +74,31 @@
         object-fit: cover;
         object-position: center;
     }
+
+    /* bmi chart */
+    .bmi-chart {
+        flex-direction: column;
+    }
+
+    .bmi-heading {
+        padding-left: 0px;
+    }
+
+    /* team  */
+    .trainer1,
+    .trainer2 {
+        grid-template-columns: 1fr;
+    }
+
+    .person1,
+    .person2,
+    .person3,
+    .person4,
+    .person5,
+    .person6 {
+        margin-left: 10%;
+        margin-right: 0;
+        width: 80%;
+    }
+
 }
