@@ -34,9 +34,44 @@
         display: block;
     }
 
+    /* change your habit */
+    .habit-element {
+        flex-direction: column;
+    }
+
     /* footer  */
     .footer-content {
         flex-direction: column;
     }
 
+    .footer-section1 {
+        width: 100%;
+    }
+
+    .footer-section2 {
+        padding-top: 30px;
+    }
+
+    .footer-section3 {
+        padding-top: 30px;
+    }
+
+    /* run an extra mile */
+    .run {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .run-content>button {
+        padding-left: 5.5rem;
+        padding-right: 5.5rem;
+        margin-bottom: 0;
+        align-self: center;
+    }
+
+    .run-img>img {
+        transform: scale(1);
+        object-fit: cover;
+        object-position: center;
+    }
 }
